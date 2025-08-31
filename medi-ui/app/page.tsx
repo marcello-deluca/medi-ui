@@ -1045,7 +1045,7 @@ export default function Home() {
               <div className="space-y-2">
                 {searchResults.length === 0 ? (
                   <p className="text-muted-foreground text-center py-8">
-                    No results found for "{searchQuery}"
+                    No results found for &quot;{searchQuery}&quot;
                   </p>
                 ) : (
                   <>
