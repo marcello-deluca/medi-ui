@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Matrix Lists Data Viewer",
-  description: "View and search through data files with interactive tables",
+  title: "MeDIC Assets Viewer",
+  description: "View and search through MeDIC's latest release assets with interactive tables",
 };
 
 export default function RootLayout({
