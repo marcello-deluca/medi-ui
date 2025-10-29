@@ -172,7 +172,7 @@ export default function Home() {
     return [csvHeaders, ...csvRows].join('\n')
   }
 
-  const handleLoadData = useCallback(async (tabIndex: number, forceRefresh: boolean = false) => {
+  const handleLoadData = useCallback(async (tabIndex: number, forceRefresh: boolean = true) => {
     const tabId = getTabId(tabIndex)
     
     setTabsData(prev => {
@@ -448,7 +448,7 @@ export default function Home() {
               {tab.name}
             </TabsTrigger>
           ))}
-          <TabsTrigger value="all">All of MeDIC</TabsTrigger>
+          <TabsTrigger value="all">All of MeDI</TabsTrigger>
         </TabsList>
 
         {/* Individual tab contents */}
@@ -481,13 +481,13 @@ export default function Home() {
           </TabsContent>
         ))}
 
-        {/* All of MeDIC tab */}
+        {/* All of MeDI tab */}
         <TabsContent value="all" className="space-y-4">
           <div className="space-y-4">
             <div className="space-y-1">
-              <h2 className="text-xl font-semibold">All of MeDIC</h2>
+              <h2 className="text-xl font-semibold">All of MeDI</h2>
               <p className="text-sm text-muted-foreground">
-                Search across all MeDIC assets
+                Search across all MeDI assets
               </p>
             </div>
 
@@ -568,7 +568,7 @@ export default function Home() {
       {/* Funding acknowledgment */}
       <div className="mt-12 pt-6 border-t text-center text-sm text-muted-foreground">
         This work was funded by the Advanced Research Projects Agency for Health (ARPA-H).
-        <br /> MeDIC was built as a collaboration between Every Cure, the University of North Carolina, and the Renaissance Computing Institute.
+        <br /> MeDI was built as a collaboration between Every Cure, the University of North Carolina, and the Renaissance Computing Institute.
       </div>
     </div>
   )
