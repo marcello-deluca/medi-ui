@@ -26,7 +26,7 @@ export const dataFiles: DataFileConfig[] = [
   },
   {
     name: "Indications List",
-    url: "https://github.com/everycure-org/matrix-indication-list/releases/tag/v1.4.1/download/indicationList.xlsx",
+    url: "https://github.com/everycure-org/matrix-indication-list/releases/latest/download/indicationList.xlsx",
     type: "indication",
     fileFormat: 'xlsx',
     filterColumns: ["final normalized drug label", "final normalized disease label"],
