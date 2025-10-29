@@ -9,7 +9,7 @@ export interface DataFileConfig {
 
 export const dataFiles: DataFileConfig[] = [
   {
-    name: "Drugs List",
+    name: "MeDIC Drug List",
     url: "https://github.com/everycure-org/matrix-drug-list/releases/latest/download/drugList.tsv",
     type: "drug",
     fileFormat: 'tsv',
