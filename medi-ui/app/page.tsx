@@ -397,7 +397,7 @@ export default function Home() {
         <div className="flex-1">
           <h1 className="text-3xl font-bold"> Medicines, Diseases, Indications, and Contraindications (MeDIC): A Foundational Resource for Drug Repurposing</h1>
           <p className="text-muted-foreground mt-2">
-            The Medicines, Diseases, Indications, and Contraindications (MeDIC) database is a collection of tabulated data sources for drug repurposing.
+            The Medicines, Diseases, Indications, and Contraindications (MeDIC) database is a collection of tabulated data sources for drug repurposing. Click through any row to view additional context for that entry.
           </p>
           
           {/* Download buttons */}
