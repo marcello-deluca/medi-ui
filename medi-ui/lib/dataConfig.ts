@@ -30,7 +30,7 @@ export const dataFiles: DataFileConfig[] = [
     type: "indication",
     fileFormat: 'xlsx',
     filterColumns: ["final normalized drug label", "final normalized disease label"],
-    displayColumns: ["final normalized drug label", "final normalized disease label", "final normalized drug id", "final normalized disease id", "drug|disease"]
+    displayColumns: ["final normalized drug label", "disease name", "final normalized disease label", "final normalized drug id", "final normalized disease id"]
   },
   {
     name: "Contraindications List",
